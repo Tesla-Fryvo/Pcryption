@@ -1,6 +1,6 @@
 # Pcryption
 To be honest it an random encryption that I think of I'll not say it perfect but it good enough 
-It probably possible to encrypt and decrypt without and big long table 
+It probably possible to encrypt and decrypt without and big long table and that is probably pro of this ecryption
 
 I will continue updating the encryption and make it better while maintaining the main idea that it will be possible to encrypt/decrypt with just empty paper 
 just don't take it seriously (i do for fun)
