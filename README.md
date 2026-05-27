@@ -1,16 +1,16 @@
 # 🔐 Pcryption
 
-Pcryption is a lightweight, pen-and-paper cipher designed to encrypt and decrypt text using nothing but a blank sheet of paper and a simple mathematical rotation. 
+Pcryption is a pen-and-paper cipher designed to encrypt and decrypt text using nothing but a blank sheet of paper. 
 
-While it isn't designed to stop professional cryptanalysts, its main strength is its simplicity: **you do not need to carry a massive lookup table with you to use it.** If you understand the underlying pattern, you can encrypt and decrypt entirely from memory.
+While it isn't designed to stop professional cryptanalysts, its main good side is simplicity: **you do not need to carry a massive lookup table with you to use it.** If you understand the underlying pattern, you can encrypt and decrypt entirely from memory.
 
-> ⚠️ **Disclaimer:** This project was created for fun and educational purposes. Do not use Pcryption to secure highly sensitive data!
+> ⚠️ **Disclaimer:** This project was created for fun Do not use Pcryption to secure highly sensitive data!
 
 ---
 
-## 🧭 How It Works (The Core Logic)
+## How It Works
 
-The cipher breaks down letters into a 3-digit code block following a strict mathematical rule. Every letter is assigned a code based on three columns that cycle sequentially (**Column 1 ➔ Column 2 ➔ Column 3 ➔ Column 1...**).
+The cipher breaks down letters into a 3-digit code block. Every letter is assigned a code based on three columns that cycle sequentially (**Column 1 ➔ Column 2 ➔ Column 3 ➔ Column 1...**).
 
 Each 3-digit code `[X][Y][Z]` is structured like this:
 *   **`X` (The Group/Row):** Dictated by the column cycle. 
@@ -24,7 +24,7 @@ Because of this layout, you can easily calculate the codes in your head without 
 
 ---
 
-## 📊 The Cipher Matrix
+## 📊 The Cipher Table
 
 | Column 1 (Cycle 1) | Column 2 (Cycle 2) | Column 3 (Cycle 3) |
 | :--- | :--- | :--- |
@@ -56,7 +56,7 @@ Because of this layout, you can easily calculate the codes in your head without 
 | **306** X 24 | **606** X 51 | **906** X 78 |
 | **307** Y 25 | **607** Y 52 | **907** Y 79 |
 | **308** Z 26 | **608** Z 53 | **908** Z 80 |
-| **309** ␣ 27 *(Space)* | **609** ␣ 54 *(Space)* | **909** ␣ 81 *(Space)* |
+| **309** (Space) | **609** *(Space)* | **909** *(Space)* |
 
 ---
 
@@ -71,3 +71,13 @@ To encrypt a message, you shift columns for every single letter: **Column 1 ➔ 
 Letter:    H     e     l     l     o    [ ]    I     [ ]    C     h     a     n     e
 Cycle:    (1)   (2)   (3)   (1)   (2)   (3)   (1)   (2)   (3)   (1)   (2)   (3)   (1)
 Code:     108   405   803   203   506   909   401   609   103   408   701   205   405
+
+```
+## Term of use
+I don't mind if you use it of modified it feel free to do anytings with it 
+you don't need to credit me since I many people might have same idea 
+(But you could credit me I'll appreciate it)
+
+## Note
+Hope you have a great day this is my first repo and hope this use full it probably not be really useful but hey enjoy making it and share here 
+﻿
